@@ -25,6 +25,9 @@
     "type": "git",
     "url": "https://github.com/Sitka-Ltd/heatmap.js"
   },
+  "bugs": {
+    "url": "https://github.com/Sitka-Ltd/heatmap.js/issues"
+  },
   "keywords": [
     "heatmap",
     "heatmaps",

@@ -1,14 +1,18 @@
 {
-  "name": "heatmap.js",
-  "version": "2.0.5",
+  "name": "@sitka/heatmap.js",
+  "version": "2.0.6",
   "description": "Dynamic JavaScript Heatmaps for the Web",
-  "homepage": "https://www.patrick-wied.at/static/heatmapjs/",
+  "homepage": "https://github.com/Sitka-Ltd/heatmap.js",
   "author": {
-    "name": "Patrick Wied",
-    "email": "heatmapjs@patrick-wied.at",
-    "url": "https://www.patrick-wied.at/"
+    "name": "Sitka Ltd.",
+    "url": "https://sitka.co.uk/"
   },
   "main": "build/heatmap.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "grunt",
+    "push": "npm publish --access public"
+  },
   "devDependencies": {
     "grunt": ">= 0.4.1",
     "coffee-script": ">= 1.6.3",
@@ -16,6 +20,10 @@
     "grunt-contrib-concat": ">= 0.1.3",
     "grunt-contrib-watch": "0.2.0rc7",
     "grunt-contrib-jshint": ">= 0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sitka-Ltd/heatmap.js"
   },
   "keywords": [
     "heatmap",

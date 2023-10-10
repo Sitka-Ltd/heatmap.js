@@ -1,10 +1,10 @@
 /*
- * heatmap.js v2.0.5 | JavaScript Heatmap Library
+ * @sitka/heatmap.js v2.0.6 | JavaScript Heatmap Library
  *
- * Copyright 2008-2016 Patrick Wied <heatmapjs@patrick-wied.at> - All rights reserved.
- * Dual licensed under MIT and Beerware license 
+ * Copyright 2023 Sitka Ltd. - All rights reserved.
+ * MIT license 
  *
- * :: 2016-09-05 01:16
+ * :: 2023-10-10 12:26
  */
 ;(function (name, context, factory) {
 
@@ -524,7 +524,7 @@ var Canvas2dRenderer = (function Canvas2dRendererClosure() {
 
       }
 
-      img.data = imgData;
+
       this.ctx.putImageData(img, x, y);
 
       this._renderBoundaries = [1000, 1000, 0, 0];
